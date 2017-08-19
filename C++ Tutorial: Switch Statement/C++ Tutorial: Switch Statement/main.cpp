@@ -5,6 +5,7 @@
 int main () {
     using namespace std;
     int x;
+    
     cout << "how many legs do you have?\n" << endl;
     cin>> x;
     
