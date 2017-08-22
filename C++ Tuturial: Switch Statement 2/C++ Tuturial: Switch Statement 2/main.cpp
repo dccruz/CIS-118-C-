@@ -5,7 +5,6 @@ int main() {
     char userInput;
     cin >> userInput;
     cout << userInput << endl;
-    
     switch (userInput) {
         case 'a':
             userInput = 'A';
@@ -17,7 +16,7 @@ int main() {
             userInput = 'C';
             break;
         default:
-//            if nothing above is put in we will output a Z 
+// if nothing above is put in we will output a Z 
             userInput = 'Z';
             break;
     }
